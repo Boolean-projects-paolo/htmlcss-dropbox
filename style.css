@@ -9,26 +9,27 @@
 /* header */
 
 header{
-    font-size: 14px;
+    font-size: 11px;
+    background-color: whitesmoke;
 }
 
 .hcontainer{
-    height: 4rem;
-    width: 100%;
-    background-color: whitesmoke;
+    height: 3rem;
+    width: 1300px;
     display: flex;
     align-items: center;
     flex-direction: row; 
-    justify-content: space-between; 
+    justify-content: space-between;
+    margin-inline: auto; 
 }
 
-.container{
+.hcontainer1{
     display: flex;
     align-items: center;
     flex-direction: row;
 }
 
-.container2{
+.hcontainer2{
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -38,3 +39,41 @@ header{
     display:flex;
     flex-direction: row;
 }
+
+/* body */
+
+.JUMBO{
+    background-color: rgb(165, 217, 240);
+}
+
+.container{
+    max-width: 840px;
+    max-height: 440px;
+    /* background-color: aqua;  */
+    margin: auto;
+    padding-left: 30px;   
+}
+
+h1{
+    font-size: 45px;
+    font-weight: 900;
+    padding-top: 3rem;
+    
+}
+
+.jumbo{
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 11px;
+    max-width: 740px; 
+}
+
+p{
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+#p2{
+    padding-bottom: 3rem;
+}
+
