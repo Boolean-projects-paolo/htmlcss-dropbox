@@ -15,12 +15,13 @@ header{
 
 .hcontainer{
     height: 3rem;
-    width: 1300px;
+    width: 1320px;
     display: flex;
     align-items: center;
     flex-direction: row; 
     justify-content: space-between;
     margin-inline: auto; 
+    font-size: 11px;
 }
 
 .hcontainer1{
@@ -49,25 +50,26 @@ header{
 }
 
 .container{
-    max-width: 840px;
-    max-height: 440px;
+    max-width: 880px;
+    max-height: 510px;
     /* background-color: aqua;  */
     margin: auto;
     padding-left: 30px;   
 }
 
-h1{
-    font-size: 45px;
+.title-jumbo{
+    font-size: 51px;
     font-weight: 900;
     padding-top: 3rem;
+
     
 }
 
 .jumbo{
     display: flex;
     flex-direction: row-reverse;
-    font-size: 11px;
-    max-width: 740px; 
+    font-size: 12px;
+    padding-top: 1.5rem;
 }
 
 p{
@@ -81,15 +83,15 @@ p{
 .title-container{
     max-width: 720px;
     max-height: 440px;
-    /* background-color: aqua;  */
+    /* background-color: green;  */
     margin: auto;
-    padding-left: 30px; 
-    margin-top: 2rem;  
+    padding-inline: 15px; 
+    margin-top: 5rem;  
 }
 
 h2{
     padding-top: 2.5rem;
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 700;
 }
 
@@ -109,13 +111,13 @@ h2{
     margin: auto;
 }
 
-/* Sezione - Professional */
+/* Sezione - Professional - Advanced - Enterprise */
 
 .container-section{
-    max-width: 720px;
-    max-height: 440px;
+    min-width: 220px;
+    min-height: 580px;
     /* background-color: aqua;  */
-    padding-left: 30px; 
+    padding-inline: 15px; 
     margin-top: 2rem;  
 }
 
@@ -128,7 +130,7 @@ h2{
 }
 
 h3{
-    font-size: 16px;
+    font-size: 15px;
     padding-top: 0.5rem
 }
 
@@ -144,7 +146,8 @@ h3{
 
 .section-professional{
     /* background-color: aqua; */
-    width: 210px;
+    max-width: 210px;
+    min-height: 560px;
     font-size: 11px;
     border: 1px solid grey;
     border-top: 0;
@@ -154,3 +157,134 @@ h4{
     font-size: 10px;
     font-weight: 700;
 }
+
+/* Section - Team-Enterprise */
+
+.team-container{
+    max-width: 690px;
+    max-height: 440px;
+    /* background-color: green;  */
+    margin: auto;
+    margin-top: 2rem;
+   
+ 
+}
+
+.sub-team-container{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey; 
+}
+
+.input2{
+    font-size: 11px;
+    display: flex;
+    flex-direction: row;
+}
+
+.button3{
+    margin-top: 1.3rem;
+}
+
+/* Sezione - Extra */
+
+.extra{
+    max-width: 690px;
+    max-height: 240px;
+    /* background-color: green;  */
+    margin: auto;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 10.5px;
+}
+
+.sub-extra{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-right: 3.9rem;
+    
+}
+
+.partner{
+    font-size:12px;
+    width: 110px;
+    padding-top:0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: white;
+    border: 1px solid grey;
+}
+
+/* Sezione - Operazioni Dropbox Business */
+
+
+.container-op-dropbox{
+    margin: auto;
+    max-width: 690px;
+    max-height: 740px;
+    /* background-color: aquamarine; */
+    margin-top: 9rem;
+}
+
+.sub-container-op-dropbox{
+    display: flex;
+    flex-direction: column;
+    font-size: 10.2px;
+    padding-inline: 1rem;
+}
+
+.line-dropbox{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 1rem;
+}
+
+.title-line{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.line{
+    display: flex;
+    flex-direction: row;
+}
+
+.drop{
+    max-width: 190px;
+    max-height: 150px;
+    margin-bottom: 0.5rem;
+}
+
+.title-business{
+    font-size: 16px;   
+}
+
+/* <!-- Sezione - Pubblicità --> */
+
+.list3{
+    margin: auto;
+    max-width: 625px;
+    max-height: 740px;
+    /* background-color: aquamarine; */
+    margin-top: 3rem;
+    padding-right: 11rem;
+    
+}
+
+.li-list3{
+    margin-bottom: 2rem;
+}
+
+
+.link2{
+    font-size: 11px;
+    color: blue;
+}
+
+
+/* <!-- Sezione - Sponsor --> */
