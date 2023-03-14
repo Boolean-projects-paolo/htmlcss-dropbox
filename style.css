@@ -288,3 +288,57 @@ h4{
 
 
 /* <!-- Sezione - Sponsor --> */
+
+.container-sponsor{
+    margin: auto;
+    max-width: 1000px;
+      
+}
+
+.line-one{
+    display: flex;
+    flex-direction: row;  
+}
+
+.img-sponsor1{
+    width: 150px;
+    height: 150px;
+    padding-inline: 2.5rem;
+    background-color: lightgreen;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    border: 0.4rem solid rgb(202, 252, 202);
+    
+}
+
+.img-sponsor2{
+    width: 150px;
+    height: 150px;
+    padding-inline: 2.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    background-color:maroon;
+    border: 0.4rem solid maroon;
+
+}
+
+.img-sponsor3{
+    width: 150px;
+    height: 150px;
+    padding-inline: 2.5rem;
+    padding-top: 4.3rem;
+    padding-bottom: 4.3rem;
+    background-color: dodgerblue;
+    border: 0.4rem solid dodgerblue
+
+}
+
+.img-sponsor4{
+    width: 150px;
+    height: 150px;
+    padding-inline: 2.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    background-color:red;
+    border: 0.4rem solid red
+}
