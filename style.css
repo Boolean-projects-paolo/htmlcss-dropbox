@@ -50,17 +50,21 @@ header{
 }
 
 .container{
-    max-width: 880px;
-    max-height: 510px;
+    max-width: 810px;
+    max-height: 435px;
     /* background-color: aqua;  */
     margin: auto;
     padding-left: 30px;   
 }
 
 .title-jumbo{
-    font-size: 51px;
+    font-size: 45px;
+    width: 810px;
+    /* background-color: aqua; */
     font-weight: 900;
-    padding-top: 3rem;
+    padding-top: 2rem;
+    padding-right: 8.5rem;
+    margin-right: 8rem;
 
     
 }
@@ -69,7 +73,7 @@ header{
     display: flex;
     flex-direction: row-reverse;
     font-size: 12px;
-    padding-top: 1.5rem;
+    padding-top: 1rem;
 }
 
 p{
@@ -81,11 +85,11 @@ p{
 /* Section - Fatturazione */
 
 .title-container{
-    max-width: 720px;
-    max-height: 440px;
+    width: 570px;
+    height: 130px;
     /* background-color: green;  */
     margin: auto;
-    padding-inline: 15px; 
+    padding-inline: 1px; 
     margin-top: 5rem;  
 }
 
@@ -109,24 +113,33 @@ h2{
     flex-direction: row;
     justify-content: center;
     margin: auto;
+    padding-inline: 2rem;
 }
 
 /* Sezione - Professional - Advanced - Enterprise */
 
 .container-section{
-    min-width: 220px;
-    min-height: 580px;
-    /* background-color: aqua;  */
-    padding-inline: 15px; 
+    width: 182px;
+    height: 550px;
+    /* background-color: aqua;  */ 
+    margin-inline: 8px ;
     margin-top: 2rem;  
 }
 
 .list2{
-    padding-left: 1rem;
-    padding-right: 1.1rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
     padding-top: 0.5rem;
     padding-bottom: 1.3rem;
-    font-size: 10px;
+    font-size: 9px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hr1{
+    width: 35px;
+    margin-left: 1.3rem;
 }
 
 h3{
@@ -147,7 +160,7 @@ h3{
 .section-professional{
     /* background-color: aqua; */
     max-width: 210px;
-    min-height: 560px;
+    min-height: 525px;
     font-size: 11px;
     border: 1px solid grey;
     border-top: 0;
@@ -166,6 +179,7 @@ h4{
     /* background-color: green;  */
     margin: auto;
     margin-top: 2rem;
+    padding-inline: 3.5rem ;
    
  
 }
@@ -198,24 +212,25 @@ h4{
     margin-top: 5rem;
     display: flex;
     flex-direction: row;
-    font-size: 10.5px;
+    font-size: 9.5px;
+    padding-inline:3.5rem ;
 }
 
 .sub-extra{
     width: 35%;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     margin-left: 2rem;
-    margin-right: 3.9rem;
+    margin-right: 1rem;
+    padding-top: 1.5rem;
     
 }
 
 .partner{
-    font-size:12px;
-    width: 110px;
-    padding-top:0.5rem;
-    padding-bottom: 0.5rem;
+    font-size:9.5px;
+    width: 85px;
+    padding-top:0.4rem;
+    padding-bottom: 0.4rem;
     background-color: white;
     border: 1px solid grey;
 }
@@ -228,7 +243,8 @@ h4{
     max-width: 690px;
     max-height: 740px;
     /* background-color: aquamarine; */
-    margin-top: 9rem;
+    margin-top: 5rem;
+    padding-inline: 3.5rem;
 }
 
 .sub-container-op-dropbox{
@@ -236,12 +252,13 @@ h4{
     flex-direction: column;
     font-size: 10.2px;
     padding-inline: 1rem;
+    
 }
 
 .line-dropbox{
     display: flex;
     flex-direction: column;
-    padding-inline: 1rem;
+    /* padding-inline: 1rem; */
 }
 
 .title-line{
@@ -272,8 +289,16 @@ h4{
     max-height: 740px;
     /* background-color: aquamarine; */
     margin-top: 3rem;
-    padding-right: 11rem;
+    padding-left: 2.5rem;
+    padding-right: 15rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     
+}
+
+.title3{
+    font-size: 22px;
 }
 
 .li-list3{
@@ -282,7 +307,7 @@ h4{
 
 
 .link2{
-    font-size: 11px;
+    font-size: 9px;
     color: blue;
 }
 
@@ -290,9 +315,13 @@ h4{
 /* <!-- Sezione - Sponsor --> */
 
 .container-sponsor{
+    margin-top: 2rem;
     margin: auto;
-    max-width: 1000px;
-      
+    max-width: 1040px; 
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
 }
 
 .line-one{
@@ -300,45 +329,133 @@ h4{
     flex-direction: row;  
 }
 
+/* Sponsor-left */
+
 .img-sponsor1{
-    width: 150px;
-    height: 150px;
-    padding-inline: 2.5rem;
     background-color: lightgreen;
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-    border: 0.4rem solid rgb(202, 252, 202);
-    
+    border: 0.4rem solid rgb(202, 252, 202);   
 }
 
 .img-sponsor2{
-    width: 150px;
-    height: 150px;
-    padding-inline: 2.5rem;
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
     background-color:maroon;
     border: 0.4rem solid maroon;
-
 }
 
 .img-sponsor3{
-    width: 150px;
-    height: 150px;
-    padding-inline: 2.5rem;
-    padding-top: 4.3rem;
-    padding-bottom: 4.3rem;
     background-color: dodgerblue;
-    border: 0.4rem solid dodgerblue
-
+    border: 0.4rem solid dodgerblue;
 }
 
 .img-sponsor4{
-    width: 150px;
-    height: 150px;
-    padding-inline: 2.5rem;
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
     background-color:red;
     border: 0.4rem solid red
+}
+
+
+/* Sponsor-center */
+
+.sponsor-center{
+    width: 360px;
+    height: 354.6px;
+    background-color: lightgrey;
+    padding-top: 1rem;
+    padding-inline: 2rem;
+
+}
+
+.img-center{
+    width: 150px;
+}
+
+.list-center{
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+#hr2{
+    width: 50px;
+}
+
+/* Sponsor-right */
+
+.img-sponsor5{
+    background-color:rgb(170, 3, 3);
+    border: 0.4rem solid rgb(170, 3, 3);
+}
+
+.img-sponsor6{
+    background-color:rgb(132, 169, 192);
+    border: 0.4rem solid rgb(132, 169, 192);
+}
+
+.img-sponsor7{
+    background-color:rgb(0, 0, 111);
+    border: 0.4rem solid rgb(0, 0, 111);
+}
+
+.img-sponsor8{
+    background-color:rgb(255, 221, 0);
+    border: 0.4rem solid rgb(255, 221, 0);
+}
+
+/* Sponsor-bottom */
+
+.sponsor-bottom{
+    width: 1040px;
+    height: 220px;
+    background-color: rgb(132, 169, 192);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 12rem;
+}
+
+.sponsor-bottom-title{
+    font-size: 24px;
+    color: rgb(86, 1, 1);
+}
+
+.list-bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.li-bottom{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+
+/* Question-container */
+
+.question-container{
+    width: 1040px;
+    height: 500px;
+    /* background-color: rgb(132, 169, 192); */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.title-question{
+    padding-bottom: 2rem;
+}
+
+.li-question{
+    width: 590px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 10px;
+    font-weight: bold;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.fa-solid{
+    rotate: 180deg;
 }

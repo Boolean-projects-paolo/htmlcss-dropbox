@@ -25,7 +25,7 @@
     background-color:rgb(0, 76, 255) ;
     border-color: rgb(0, 76, 255);
     color: white;
-    font-size: 11px;
+    font-size: 10px;
     
 }
 
@@ -38,14 +38,14 @@
 
 /* Section - Jumbo */
 #jumbo{
-    width: 820px;
-    height: 330px; 
+    width: 650px;
+    height: 300px; 
     position: relative;
-    top: 18px;
+    top: 15px;
 }
 
 #arrow{
-    font-size: 32px;
+    font-size: 30px;
 }
 
 /* Section - Parte centrale */
@@ -66,9 +66,15 @@
     margin-inline: 0.2rem;
 }
 
+#p1{
+    font-size: 11px;
+    width: 240px;
+}
+
 #p2{
-    padding-top: 1.5rem;
-    padding-bottom: 3.5rem;
+    padding-top: 1rem;
+    padding-bottom: 2.8rem;
+    font-size: 11px;
 }
 
 /* Sezione - Professional - Advanced - Enterprise */
@@ -77,10 +83,11 @@
     /* background-color: aqua; */
     padding-top: 0.4rem;
     padding-bottom: 0.4rem;
-    padding-inline: 4.8rem;
-    width: 210px;
+    width: 182px;
     font-size: 11px;
     border: 1px solid grey;
+    display: flex;
+    justify-content: center;
 }
 
 #single{
@@ -100,14 +107,14 @@
 #button3{
     margin-inline: 1.25rem;
     /* padding-inline: 1.4rem; */
-    min-width:170px;
+    min-width:150px;
     padding-top: 0.4rem;
     padding-bottom: 0.4rem;
     border-radius: 0;
     background-color:rgb(0, 76, 255) ;
     border-color: rgb(0, 76, 255);
     color: white;
-    font-size: 10px;
+    font-size: 9px;
 }
 
 #three{
@@ -122,10 +129,7 @@
     color: rgb(0, 76, 255);
 }
 
-hr{
-    width: 35px;
-    margin-left: 1.3rem;
-}
+
 
 #check{
     color: rgb(0, 76, 255);
@@ -137,18 +141,18 @@ hr{
     /* background-color: aqua; */
     padding-top: 0.4rem;
     padding-bottom: 0.4rem;
-    padding-inline: 4.8rem;
-    width: 690px;
+    width: 578px;
     font-size: 11px;
     border: 1px solid grey;
     text-align: center;
+    padding-inline: 3.5rem ;
 }
 
 /* Section - Extra */
 
 #partner{
     width: 60%;
-    height: 350px;
+    height: 280px;
 }
 
 #p3{
@@ -157,4 +161,84 @@ hr{
 
 /* <!-- Sezione - Pubblicità --> */
 
+#img1{
+    filter: invert(1);
+    width: 160px;
+    height: 160px;
+    padding-inline: 2.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
 
+#img2{
+    filter: invert(1);
+    width: 160px;
+    height: 160px;
+    padding-inline: 2.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+#img3{
+    filter: invert(1);
+    width: 160px;
+    height: 160px;
+    padding-inline: 2.5rem;
+    padding-top: 4.3rem;
+    padding-bottom: 4.3rem;  
+}
+
+#img4{
+    filter: invert(1);
+    width: 160px;
+    height: 160px;
+    padding-inline: 2.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+
+#text{
+    font-size: 9px;
+}
+
+
+
+#img5{
+    filter: invert(1);
+    width: 150px;
+    height: 150px;
+    padding-inline: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#img7{
+    filter: invert(1);
+    width: 150px;
+    height: 150px;
+    padding-inline: 2rem;
+    padding-top: 2.3rem;
+    padding-bottom: 2.3rem;  
+}
+
+/* Sponsor-bottom */
+
+#button4{
+    margin-inline: 1.25rem;
+    margin-top: 1rem;
+    /* padding-inline: 1.4rem; */
+    min-width:150px;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    border-radius: 0;
+    background-color:white ;
+    border-color: white;
+    font-size: 9px;
+}
+
+/* Question-container */
+
+#p3{
+    padding-right: 10rem;   
+}
