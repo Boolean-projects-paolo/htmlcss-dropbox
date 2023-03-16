@@ -221,7 +221,7 @@ h4{
     display: flex;
     flex-direction: column;
     margin-left: 2rem;
-    margin-right: 1rem;
+    margin-right: 3.1rem;
     padding-top: 1.5rem;
     
 }
@@ -244,13 +244,14 @@ h4{
     max-height: 740px;
     /* background-color: aquamarine; */
     margin-top: 5rem;
-    padding-inline: 3.5rem;
+    padding-right: 2.5rem;
+    padding-left: 3.5rem;
 }
 
 .sub-container-op-dropbox{
     display: flex;
     flex-direction: column;
-    font-size: 10.2px;
+    font-size: 9px;
     padding-inline: 1rem;
     
 }
@@ -272,13 +273,13 @@ h4{
 }
 
 .drop{
-    max-width: 190px;
-    max-height: 150px;
+    max-width: 170px;
+    max-height: 130px;
     margin-bottom: 0.5rem;
 }
 
 .title-business{
-    font-size: 16px;   
+    font-size: 14px;   
 }
 
 /* <!-- Sezione - Pubblicità --> */
@@ -299,16 +300,18 @@ h4{
 
 .title3{
     font-size: 22px;
+    padding-bottom: 2rem;
 }
 
 .li-list3{
-    margin-bottom: 2rem;
+    padding-bottom: 5rem;
 }
 
 
 .link2{
     font-size: 9px;
     color: blue;
+    margin-bottom: 5rem;
 }
 
 
@@ -456,6 +459,6 @@ h4{
     padding-bottom: 0.5rem;
 }
 
-.fa-solid{
+.fa-angle-up{
     rotate: 180deg;
 }
