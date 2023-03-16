@@ -246,6 +246,7 @@ h4{
     margin-top: 5rem;
     padding-right: 2.5rem;
     padding-left: 3.5rem;
+    
 }
 
 .sub-container-op-dropbox{
@@ -375,10 +376,6 @@ h4{
     padding-bottom: 1rem;
 }
 
-#hr2{
-    width: 50px;
-}
-
 /* Sponsor-right */
 
 .img-sponsor5{
@@ -441,6 +438,7 @@ h4{
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid black;
     
 }
 
@@ -461,4 +459,33 @@ h4{
 
 .fa-angle-up{
     rotate: 180deg;
+}
+
+
+.footer-container{
+    width: 1040px;
+    height: 310px;
+    /* background-color: rgb(132, 169, 192); */
+    margin: auto;
+    background-color: black;
+    color: white;
+    font-size: 9px;
+}
+
+.sub-footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.6rem;
+}
+
+.elenco-footer{
+    padding-inline: 1.5rem;
+}
+
+.footer-bottom{
+    display: flex;
+    align-items: center;
+    padding-top: 4rem;
+    padding-inline: 11.8rem;
 }
