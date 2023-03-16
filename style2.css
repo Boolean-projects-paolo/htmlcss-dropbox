@@ -222,6 +222,12 @@
     padding-bottom: 2.3rem;  
 }
 
+/* Sponsor-center */
+
+#hr2{
+    width: 50px;
+}
+
 /* Sponsor-bottom */
 
 #button4{
@@ -241,4 +247,40 @@
 
 #p4{
     padding-right: 10rem;   
+}
+
+/* Footer */
+
+#elenco{
+    padding: 0.3rem;
+}
+
+#title-footer{
+    font-size: 14px;
+}
+
+#hr3{
+    width: 70px;
+}
+
+
+.ita{
+    display: flex;
+    flex-direction: row;
+    width:100px;
+    padding-top: 0.8rem;
+    
+}
+
+.fa-earth-americas{
+    padding-right: 0.5rem;
+    padding-top: 1rem;
+}
+
+.fa-caret-down{
+    rotate: 180deg;
+    padding-left: 0.3rem;
+    position: relative;
+    bottom: 24px;
+    left: 5px;
 }
